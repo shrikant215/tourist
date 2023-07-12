@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #10101e;
+}
+
+.clock{
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    transform: translate(-50%) translate(-50%);
+    color: #fff;
+    background: #10101e;
+    width: 340px;
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 15px 10px;
+    border: 3px solid#2e94e3;
+    border-radius: 10px;
+    font-size: 40px;
+    float: left;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+
+
